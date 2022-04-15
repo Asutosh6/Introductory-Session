@@ -1,0 +1,23 @@
+<Doctype html>
+    <html>
+        <body>
+            <h1> Lets search for String</h1>
+            <p id="demo1"></p>
+            <p id="demo2"></p>
+            <p id="demo3"></p>
+            <p id="demo4"></p>
+            <p id="demo5"></p>
+            <script>
+                let str="my name is asutosh";
+                let text = "its a rainy day";
+                document.getElementById("demo1").innerHTML=text.match("ain");
+                document.getElementById("demo2").innerHTML=str.indexOf("name");
+                document.getElementById("demo3").innerHTML=str.lastIndexOf("asutosh");
+                document.getElementById("demo4").innerHTML=str.slice(7);
+                document.getElementById("demo5").innerHTML=str.toUpperCase();
+
+
+            </script>
+            </script>
+        </body>
+    </html>

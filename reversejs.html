@@ -1,0 +1,17 @@
+<Doctype html>
+    <html>
+        <body>
+            <h1> Reverse of each word</h1>
+            <p id="demo1"></p>
+            <p id="demo2"></p>
+            <script>
+                const str = 'my name is Asutosh';
+
+                function reverseAString(str) {
+                 return str.split('').reverse().join('');
+                }
+                document.getElementById("demo1").innerHTML=str;
+                document.getElementById("demo2").innerHTML=reverseAString(str);
+            </script>
+        </body>
+    </html>
